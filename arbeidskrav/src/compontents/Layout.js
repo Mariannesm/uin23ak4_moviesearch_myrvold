@@ -1,11 +1,16 @@
-export default function Layout ({children}) {
+import React from 'react';
+import MovieCards from './MovieCards';
+import SearchResult from './SearchResult';
+
+export default function Layout ({searchResult, setSearch, getMovies}) {
     return (
         <div className="forside">
         <header>
-            <h1>Movie search</h1>
+            <h1>Filmsøk</h1>
         </header>
         <main>
-            {children}
+            <SearchResult setSearch={setSearch} getMovies={getMovies} />
+            <MovieCards searchResult={searchResult} />
         </main>
     </div>
     )
