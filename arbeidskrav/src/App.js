@@ -1,5 +1,5 @@
 import Layout from './compontents/Layout';
-import { Route, Routes, BrowserRouter } from 'react-router-dom'
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
 import './App.css';
 
