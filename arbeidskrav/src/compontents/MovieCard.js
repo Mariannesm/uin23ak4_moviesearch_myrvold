@@ -15,7 +15,7 @@ export default function MovieCard ({imdbID}) {
 
     useEffect(() =>{
         getMovie()
-      },[])
+      },[imdbID])
 
     return (
             <article className="movie-card">
