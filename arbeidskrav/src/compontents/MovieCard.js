@@ -27,6 +27,7 @@ export default function MovieCard ({imdbID}) {
                 <p>Actors: {movie.Actors}</p>
                 <p>Awards: {movie.Awards !== "N/A" ? movie.Awards : "Does not have any awards"}</p>
                 <p>About: {movie.Plot}</p>
+                <p>Runtime: {movie.Runtime}</p>
             </article>
     )
 }
