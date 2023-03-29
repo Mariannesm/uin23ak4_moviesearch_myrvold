@@ -6,7 +6,7 @@ export default function Layout ({searchResult, setSearch, getMovies}) {
     return (
         <div className="forside">
         <header>
-            <h1>Filmsøk</h1>
+            <h1>Movie search</h1>
         </header>
         <main>
             <SearchResult setSearch={setSearch} getMovies={getMovies} />
@@ -15,3 +15,9 @@ export default function Layout ({searchResult, setSearch, getMovies}) {
     </div>
     )
 }
+
+//Kilder:
+// Lms 
+//Gitcollab fra forelesning
+//Recepies fra forelesning
+//Samarbeid med Stine og Jennifer

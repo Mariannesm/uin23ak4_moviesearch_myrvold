@@ -19,3 +19,9 @@ export default function SearchResult ({setSearch, getMovies}){
         </form>
     )
 }
+
+//Kilder:
+// Lms 
+//Gitcollab fra forelesning
+//Recepies fra forelesning
+//Samarbeid med Stine og Jennifer
