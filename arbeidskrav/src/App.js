@@ -32,4 +32,8 @@ function App() {
 
 export default App;
 
-
+//Kilder:
+// Lms 
+//Gitcollab fra forelesning
+//Recepies fra forelesning
+//Samarbeid med Stine og Jennifer

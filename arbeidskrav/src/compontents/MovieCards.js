@@ -11,3 +11,9 @@ export default function MovieCards ({searchResult}) {
     )
 }
 
+//Kilder:
+// Lms 
+//Gitcollab fra forelesning
+//Recepies fra forelesning
+//Samarbeid med Stine og Jennifer
+

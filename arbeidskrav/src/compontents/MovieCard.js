@@ -21,12 +21,18 @@ export default function MovieCard ({imdbID}) {
             <article className="movie-card">
                 <h3>{movie.Title}</h3>
                 <img src={movie.Poster !== "N/A" ? movie.Poster : placeholder} alt={movie.Title} />
-                <p>Publisert {movie.Year}</p>
-                <p>Sjanger: {movie.Genre}</p>
+                <p>Published {movie.Year}</p>
+                <p>Genre: {movie.Genre}</p>
                 <p>{movie.Director}</p>
                 <p>{movie.Actors}</p>
-                <p>{movie.Awards}</p>
+                <p>{movie.Awards !== "N/A" ? movie.Awards : "Does not have any awards"}</p>
                 <p>{movie.Plot}</p>
             </article>
     )
 }
+
+//Kilder:
+// Lms 
+//Gitcollab fra forelesning
+//Recepies fra forelesning
+//Samarbeid med Stine og Jennifer

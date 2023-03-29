@@ -15,3 +15,9 @@ export default function Layout ({searchResult, setSearch, getMovies}) {
     </div>
     )
 }
+
+//Kilder:
+// Lms 
+//Gitcollab fra forelesning
+//Recepies fra forelesning
+//Samarbeid med Stine og Jennifer
