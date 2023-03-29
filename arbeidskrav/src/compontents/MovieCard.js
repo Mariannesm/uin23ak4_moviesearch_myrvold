@@ -21,13 +21,13 @@ export default function MovieCard ({imdbID}) {
             <article className="movie-card">
                 <h3>{movie.Title}</h3>
                 <img src={movie.Poster !== "N/A" ? movie.Poster : placeholder} alt={movie.Title} />
-                <p>Published {movie.Year}</p>
-                <p>Genre: {movie.Genre}</p>
-                <p>Director: {movie.Director}</p>
-                <p>Actors: {movie.Actors}</p>
+                <p>Published {movie.Year !== "N/A" ? movie.Year : "Not available"}</p>
+                <p>Genre: {movie.Genre !== "N/A" ? movie.Genre : "Not available"}</p>
+                <p>Director: {movie.Director !== "N/A" ? movie.Director : "Not available"}</p>
+                <p>Actors: {movie.Actors !== "N/A" ? movie.Actors : "Not available"} </p>
                 <p>Awards: {movie.Awards !== "N/A" ? movie.Awards : "Does not have any awards"}</p>
-                <p>About: {movie.Plot}</p>
-                <p>Runtime: {movie.Runtime}</p>
+                <p>About: {movie.Plot !== "N/A" ? movie.Plot : "Not available"}</p>
+                <p>Runtime: {movie.Runtime !== "N/A" ? movie.Runtime : "Not available"}</p>
             </article>
     )
 }
