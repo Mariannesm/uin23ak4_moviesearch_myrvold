@@ -23,10 +23,10 @@ export default function MovieCard ({imdbID}) {
                 <img src={movie.Poster !== "N/A" ? movie.Poster : placeholder} alt={movie.Title} />
                 <p>Published {movie.Year}</p>
                 <p>Genre: {movie.Genre}</p>
-                <p>{movie.Director}</p>
-                <p>{movie.Actors}</p>
-                <p>{movie.Awards !== "N/A" ? movie.Awards : "Does not have any awards"}</p>
-                <p>{movie.Plot}</p>
+                <p>Director: {movie.Director}</p>
+                <p>Actors: {movie.Actors}</p>
+                <p>Awards: {movie.Awards !== "N/A" ? movie.Awards : "Does not have any awards"}</p>
+                <p>About: {movie.Plot}</p>
             </article>
     )
 }
