@@ -14,8 +14,8 @@ export default function SearchResult ({setSearch, getMovies}){
 
     return (
         <form onSubmit={handleSubmit}>
-            <input type="search" placeholder="Søk etter film her..." onChange={handleSearch} />
-            <input type="submit" onClick={getMovies} value="Søk" />
+            <input className="SearchField" type="search" placeholder="Search after movies here..." onChange={handleSearch} />
+            <input className="buttonSearch" type="submit" onClick={getMovies} value="Search" />
         </form>
     )
 }

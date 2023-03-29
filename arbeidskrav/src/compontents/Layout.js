@@ -6,10 +6,12 @@ export default function Layout ({searchResult, setSearch, getMovies}) {
     return (
         <div className="forside">
         <header>
-            <h1>Movie search</h1>
+            <h1>MovieSearch</h1>
         </header>
-        <main>
+        <nav>
             <SearchResult setSearch={setSearch} getMovies={getMovies} />
+        </nav>
+        <main>
             <MovieCards searchResult={searchResult} />
         </main>
     </div>

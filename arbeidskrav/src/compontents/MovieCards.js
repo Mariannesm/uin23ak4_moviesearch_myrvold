@@ -3,7 +3,7 @@ import MovieCard from "./MovieCard"
 
 export default function MovieCards ({searchResult}) {
     return (
-        <section>
+        <section className="movies">
             {searchResult.map((movie, index) => (
                 <MovieCard key={index} imdbID={movie.imdbID} />
             ))}
