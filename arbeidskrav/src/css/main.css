@@ -4,12 +4,11 @@ body {
 }
 body .forside header h1 {
   display: flex;
-  color: #507C63;
+  color: black;
   justify-content: center;
   font-family: "Raleway", bold;
   font-size: 3.7rem;
   background-color: #E4BB97;
-  text-shadow: -1px 0 black;
 }
 body .forside nav {
   padding: 0.1 rem;
@@ -20,7 +19,7 @@ body .forside nav .SearchField {
   padding-right: 10rem;
   padding-top: 0.8rem;
   background-color: white;
-  font-size: 20px;
+  font-size: 15px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -29,7 +28,10 @@ body .forside nav .buttonSearch {
   padding-top: 0.8rem;
   color: black;
   background-color: #FEF5EF;
-  font-size: 20px;
+  font-size: 15px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
 }
 body main .movies {
   display: flex;
@@ -58,8 +60,13 @@ body main .movie-card img {
   max-width: 200px;
   border-radius: 5%;
 }
+body main .movie-card h4 {
+  font-family: "Raleway", bold;
+  font-size: 20px;
+}
 body main .movie-card p {
   font-family: "Raleway", medium;
+  font-size: 17px;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -10,12 +10,12 @@ body {
 
             h1 {
                 display: flex;
-                color: $green;
+                color: black;
                 justify-content: center;
                 font-family: 'Raleway', bold ;
                 font-size: 3.7rem;
                 background-color: $brown;
-                text-shadow: -1px 0 black;
+
             }
         }
 
@@ -31,7 +31,7 @@ body {
                 padding-right: 10rem;
                 padding-top: 0.8rem;
                 background-color: white;
-                font-size: 20px;
+                font-size: 15px;
                 border-top-left-radius: 10px;
                 border-bottom-left-radius: 10px;
             }
@@ -41,7 +41,10 @@ body {
                 padding-top: 0.8rem;
                 color: black;
                 background-color: $cream;
-                font-size: 20px;
+                font-size: 15px;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+                cursor: pointer;
             }
             
         }
@@ -82,8 +85,15 @@ body {
                 border-radius: 5%;
             }
 
+            h4 {
+                font-family: 'Raleway', bold ;
+                font-size: 20px;
+            }
+
             p {
                 font-family: 'Raleway', medium ;
+                font-size: 17px;
+                
             }
 
         }
